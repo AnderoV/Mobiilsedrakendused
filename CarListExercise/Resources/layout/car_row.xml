@@ -1,0 +1,40 @@
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="48dp"
+	android:gravity="center_vertical">
+	<TextView
+		android:text="Manufacturer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView1"
+		android:layout_weight="1" />
+	<TextView
+		android:text="Model"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView2"
+		android:layout_weight="1"/>
+	<TextView
+		android:text="Year"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_weight="1"
+		android:id="@+id/textView3" />
+	<TextView
+		android:text="Kilowatts"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_weight="1"
+		android:id="@+id/textView4" />
+</LinearLayout>

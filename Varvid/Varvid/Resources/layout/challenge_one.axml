@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+	android:background="#000"
+    android:layout_height="match_parent">
+	<TextView
+		android:text="Red"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#f00"
+		android:textColor="#000"
+		android:id="@+id/red" />
+	<TextView
+		android:text="Orange"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#ffa500"
+		android:textColor="#000"
+		android:id="@+id/orange" />
+	<TextView
+		android:text="Yellow"
+		android:textColor="#000"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#ffff00"
+		android:textColor="#000"
+		android:id="@+id/yellow" />
+	<TextView
+		android:text="Green"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#0f0"
+		android:textColor="#000"
+		android:id="@+id/green" />
+	<TextView
+		android:text="Blue"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#00f"
+		android:textColor="#fff"
+		android:id="@+id/blue" />
+	<TextView
+		android:text="Indigo"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#4b0082"
+		android:textColor="#fff"
+		android:id="@+id/indigo" />
+	<TextView
+		android:text="Violet"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#ee82ee"
+		android:textColor="#000"
+		android:id="@+id/violet" />
+
+</LinearLayout>

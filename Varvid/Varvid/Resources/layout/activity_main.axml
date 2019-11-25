@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical">
+	<Button
+		android:text="Challenge 1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:drawableLeft="@android:drawable/Images"
+		android:id="@+id/challengeButton1" />
+	<Button
+		android:text="Challenge 2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/challengeButton2" />
+	<Button
+		android:text="Challenge 3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/challengeButton3" />
+	<Button
+		android:text="Challenge 4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/challengeButton4" />
+
+</LinearLayout>
